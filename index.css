@@ -864,6 +864,10 @@
     /*========== Media Queries ==========*/
 
     @media only screen and (max-width:1200px) {
+      .main-content .home {
+        margin-top: -5vw;
+      }
+
       .customize-theme .card {
         width: 50vw;
       }
@@ -896,7 +900,7 @@
     @media only screen and (max-width:768px) {
       .scroll-down {
         position: absolute;
-        bottom: -1.5rem;
+        bottom: 1.5rem;
         left: 0;
         width: 100%;
       }
@@ -1005,7 +1009,7 @@
     @media only screen and (max-width:320px) {
       .scroll-down {
         position: absolute;
-        bottom: -1.5rem;
+        bottom: 1.5rem;
         left: 0;
         width: 100%;
       }
